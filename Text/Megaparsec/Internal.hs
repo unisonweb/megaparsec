@@ -204,7 +204,6 @@ instance (Ord e, Stream s) => Alternative (ParsecT e s m) where
 instance Stream s => Monad (ParsecT e s m) where
   return = pure
   (>>=)  = pBind
-  fail   = Fail.fail
 
 pBind :: Stream s
   => ParsecT e s m a

@@ -25,7 +25,6 @@ where
 
 import Data.List (foldl')
 import Data.Proxy
-import Data.Semigroup ((<>))
 import Data.Word (Word8)
 import Text.Megaparsec.Pos
 import qualified Data.ByteString      as B
